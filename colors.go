@@ -3,64 +3,64 @@ package colors
 import "github.com/charmbracelet/lipgloss"
 
 const ( // Catppuccin Mocha
-	rosewater = lipgloss.Color("#f5e0dc")
-	flamingo  = lipgloss.Color("#f2cdcd")
-	pink      = lipgloss.Color("#f5c2e7")
-	mauve     = lipgloss.Color("#cba6f7")
-	red       = lipgloss.Color("#f38ba8")
-	maroon    = lipgloss.Color("#eba0ac")
-	peach     = lipgloss.Color("#fab387")
-	yellow    = lipgloss.Color("#f9e2af")
-	green     = lipgloss.Color("#a6e3a1")
-	teal      = lipgloss.Color("#94e2d5")
-	sky       = lipgloss.Color("#89dceb")
-	sapphire  = lipgloss.Color("#74c7ec")
-	blue      = lipgloss.Color("#89b4fa")
-	lavander  = lipgloss.Color("#b4befe")
+	RosewaterColor = lipgloss.Color("#f5e0dc")
+	FlamingoColor  = lipgloss.Color("#f2cdcd")
+	PinkColor      = lipgloss.Color("#f5c2e7")
+	MauveColor     = lipgloss.Color("#cba6f7")
+	RedColor       = lipgloss.Color("#f38ba8")
+	MaroonColor    = lipgloss.Color("#eba0ac")
+	PeachColor     = lipgloss.Color("#fab387")
+	YellowColor    = lipgloss.Color("#f9e2af")
+	GreenColor     = lipgloss.Color("#a6e3a1")
+	TealColor      = lipgloss.Color("#94e2d5")
+	SkyColor       = lipgloss.Color("#89dceb")
+	SapphireColor  = lipgloss.Color("#74c7ec")
+	BlueColor      = lipgloss.Color("#89b4fa")
+	LavanderColor  = lipgloss.Color("#b4befe")
 
-	base  = lipgloss.Color("#1e1e2e")
-	text  = lipgloss.Color("#cdd6f4")
-	crust = lipgloss.Color("#11111b")
+	BaseColor  = lipgloss.Color("#1e1e2e")
+	TextColor  = lipgloss.Color("#cdd6f4")
+	CrustColor = lipgloss.Color("#11111b")
 )
 
 var RosewaterStyle = lipgloss.NewStyle().
-	Foreground(rosewater)
+	Foreground(RosewaterColor)
 
 var FlamingoStyle = lipgloss.NewStyle().
-	Foreground(flamingo)
+	Foreground(FlamingoColor)
 
 var PinkStyle = lipgloss.NewStyle().
-	Foreground(pink)
+	Foreground(PinkColor)
 
 var MauveStyle = lipgloss.NewStyle().
-	Foreground(mauve)
+	Foreground(MauveColor)
 
 var RedStyle = lipgloss.NewStyle().
-	Foreground(red)
+	Foreground(RedColor)
 
 var MaroonStyle = lipgloss.NewStyle().
-	Foreground(maroon)
+	Foreground(MaroonColor)
 
 var PeachStyle = lipgloss.NewStyle().
-	Foreground(peach)
+	Foreground(PeachColor)
 
 var YellowStyle = lipgloss.NewStyle().
-	Foreground(yellow)
+	Foreground(YellowColor)
 
 var GreenStyle = lipgloss.NewStyle().
-	Foreground(green)
+	Foreground(GreenColor)
 
 var TealStyle = lipgloss.NewStyle().
-	Foreground(teal)
+	Foreground(TealColor)
 
 var SkyStyle = lipgloss.NewStyle().
-	Foreground(sky)
+	Foreground(SkyColor)
 
 var SapphireStyle = lipgloss.NewStyle().
-	Foreground(sapphire)
+	Foreground(SapphireColor)
 
 var BlueStyle = lipgloss.NewStyle().
-	Foreground(blue)
+	Foreground(BlueColor)
 
 var LavanderStyle = lipgloss.NewStyle().
-	Foreground(lavander)
+	Foreground(LavanderColor)
